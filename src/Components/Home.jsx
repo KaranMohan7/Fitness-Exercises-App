@@ -1,14 +1,13 @@
 import React from 'react'
-
 import Input from './Input'
-
+import Logohero from '../assets/images/picturesMain.png';
 
 function Home() {
   return (
     <div className='w-full min-h-screen '>
      
         <div>
-          <img className='w-full border-none rounded-2xl mix-blend-overlay' src='src\assets\images\picturesMain.png'></img>
+          <img className='w-full border-none rounded-2xl mix-blend-overlay' src={Logohero}></img>
           <div className='w-full text-4xl text-center text-white p-3 md:text-4xl lg:text-6xl'>
           <h1>The Best <span className='text-red-500 font-bold'>Fitness</span> Club</h1>
           <h1>Sweat,Smile</h1>

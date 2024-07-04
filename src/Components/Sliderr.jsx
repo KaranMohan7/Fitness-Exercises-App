@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Exerciseimages from './Exerciseimages';
 import Pagination from './Pagination';
 import { FetchData, exerciseoptions } from '../Utils/FetchData';
+import Logogym from '../assets/icons/gymmain.png';
 
 const Sliderr = () => {
   var settings = {
@@ -79,7 +80,7 @@ useEffect(() => {
          
        bodypart.map((item,index)=>{
         return <div onClick={() => setbodyparts(item)} className='text-l  lg:text-2xl text-white font-semibold border  h-20  lg:w-48 lg:h-72' key={index}>
-          <img className='m-auto lg:pt-10 w-10 mt-4 lg:w-32 cursor-pointer' src='src\assets\icons\gymmain.png'/>
+          <img className='m-auto lg:pt-10 w-10 mt-4 lg:w-32 cursor-pointer' src={Logogym}/>
          <div className='text-center lg:mt-10'>{item.toUpperCase()}</div> 
         </div>
       

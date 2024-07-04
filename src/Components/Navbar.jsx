@@ -1,6 +1,6 @@
 import React, {} from 'react'
 import { Link } from 'react-router-dom'
-
+import Logo from '../assets/images/Logobody.png';
 
 function Navbar() {
 
@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div className=' w-full p-5 text-white font-semibold flex items-center justify-around sm:p-6  md:text-xl'>
       <div>
-        <Link to='/'><img className='w-10 md:w-14 mix-blend-darken' src='src\assets\images\Logobody.png'></img></Link>
+        <Link to='/'><img className='w-10 md:w-14 mix-blend-darken' src={Logo}></img></Link>
       </div>
       <div className='space-x-6'>
         <Link to='/'>Home</Link>
