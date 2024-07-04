@@ -79,7 +79,7 @@ useEffect(() => {
          
        bodypart.map((item,index)=>{
         return <div onClick={() => setbodyparts(item)} className='text-l  lg:text-2xl text-white font-semibold border  h-20  lg:w-48 lg:h-72' key={index}>
-          <img className='m-auto lg:pt-10 w-10 mt-4 lg:w-32 cursor-pointer' src='src\assets\icons\gym.png'/>
+          <img className='m-auto lg:pt-10 w-10 mt-4 lg:w-32 cursor-pointer' src='src\assets\icons\gymmain.png'/>
          <div className='text-center lg:mt-10'>{item.toUpperCase()}</div> 
         </div>
       
