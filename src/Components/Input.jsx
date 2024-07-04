@@ -38,8 +38,8 @@ const Input = () => {
     <div className='flex flex-col items-center justify-center'>
         <h1 className='text-center md:text-xl lg:text-3xl text-white'>Awesome Exercises You Should Know !</h1>
         <div className='flex items-center justify-evenly space-x-2 pt-2'>
-        <input className='p-1 rounded-md bg-slate-50 outline-none md:p-2 md:min-w-[420px] lg:min-w-[420px] ' type='text' placeholder='Search Exercises' value={input} onChange={(e) =>{setinput(e.target.value.toLowerCase())}}></input>
-        <button onClick={HandleSearch} className='p-1 bg-blue-400 font-semibold text-white rounded-md md:p-2 min-w-24'>Search</button>
+        <input className='p-1 rounded-md bg-slate-50 outline-none md:p-2  lg:min-w-[420px] ' type='text' placeholder='Search Exercises' value={input} onChange={(e) =>{setinput(e.target.value.toLowerCase())}}></input>
+        <button onClick={HandleSearch} className='p-1 bg-blue-400 font-semibold text-white rounded-md md:p-2 sm:min-w-16 '>Search</button>
         </div>
 
     </div>

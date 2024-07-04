@@ -74,20 +74,21 @@ useEffect(() => {
   
     <div>
     <div className='p-20'>
+    <h5 className='text-white mb-3 w-40 font-semibold text-xs lg:hidden xl:hidden '>Swipe or Click the <span className='text-red-500'>Arrow</span> to select a body Part → </h5>
          <Slider {...settings}>
-        
+           
+           
         {
          
        bodypart.map((item,index)=>{
-        return <div onClick={() => setbodyparts(item)} className='text-l  lg:text-2xl text-white font-semibold border  h-20  lg:w-48 lg:h-72' key={index}>
-          <img className='m-auto lg:pt-10 w-10 mt-4 lg:w-32 cursor-pointer' src={Logogym}/>
-         <div className='text-center lg:mt-10'>{item.toUpperCase()}</div> 
+        return <div onClick={() => setbodyparts(item)} className='text-l lg:text-2xl text-white font-semibold border ' key={index}>
+          <img className='m-auto lg:pt-10 w-9 mt-4 lg:w-32 cursor-pointer' src={Logogym}/>
+         <div className='text-center sm:text-xs lg:text-xl lg:mt-10'>{item.toUpperCase()}</div> 
         </div>
       
        })
         }
         </Slider>
-
     </div>
     <Exerciseimages sliced={sliced}/>
     <Pagination postperpage={picperpage} paginate={paginate} total={exercises.length}/>

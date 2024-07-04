@@ -17,7 +17,7 @@ function Home() {
           <p className='text-center text-white lg:text-2xl'>Check out the Most Effective Exercises Personlised for You !</p>
         </div>
         <div className='p-2 sm:p-4 md:p-5 lg:p-5 text-center'>
-        <button className='p-2 md:p-3 lg:p-4 mt-3 bg-blue-400 rounded-md font-semibold text-white  ' onClick={() => {
+        <button className='p-2 md:p-3 lg:p-4 mt-3 bg-blue-400 rounded-md font-semibold text-white ' onClick={() => {
           window.scrollTo({
             top: 2000,
             behavior: 'smooth'
