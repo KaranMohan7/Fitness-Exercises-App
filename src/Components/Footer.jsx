@@ -5,7 +5,7 @@ const Footer = () => {
     <>      
     <div className='w-full mt-7 '>
         <div className='w-full bg-gradient-to-r from-zinc-700 to-cyan-100 '>
-            <p className='flex justify-center items-center h-20 font-semibold text-white'>© 2023 Gym.  All Rights Reserved.</p>
+            <p className='flex justify-center items-center h-20 font-semibold text-white'>© 2025 Gym.  All Rights Reserved.</p>
         </div>
     </div>
     </>

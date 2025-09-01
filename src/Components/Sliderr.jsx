@@ -51,6 +51,7 @@ useEffect(() => {
   let data = [];
   if(bodyparts==='all'){
      data = await FetchData("https://exercisedb.p.rapidapi.com/exercises?offset=0&limit=250",exerciseoptions)
+
   }else{
      data = await FetchData(`https://exercisedb.p.rapidapi.com/exercises/bodyPart/${bodyparts}`,exerciseoptions);
   }
